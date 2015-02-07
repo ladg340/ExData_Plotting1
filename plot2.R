@@ -1,3 +1,6 @@
+##Plot 2
+##R code file
+
 Sys.setlocale("LC_TIME", "English")
 all_data<-read.csv("household_power_consumption.txt",header=TRUE,sep=";",na.strings="?",nrows=2075259,check.names=F,stringsAsFactors=F,comment.char="",quote="\"")
 all_data$Date<-as.Date(all_data$Date,format="%d/%m/%Y")
